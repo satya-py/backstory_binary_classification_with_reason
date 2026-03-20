@@ -1,0 +1,65 @@
+# =====================
+# Python cache files
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =====================
+# Virtual environment
+# =====================
+venv/
+env/
+.venv/
+
+# =====================
+# Environment variables
+# =====================
+.env
+.env.*
+!.env.example
+
+# =====================
+# Cache / temp folders
+# =====================
+Cache/
+cache_root/
+*.cache
+
+# =====================
+# Logs
+# =====================
+*.log
+run.log
+
+# =====================
+# Model / large files (if downloaded)
+# =====================
+models/
+*.bin
+*.pt
+*.pth
+
+# =====================
+# Generated outputs
+# =====================
+
+test.csv
+train.csv
+
+# =====================
+# Docker
+# =====================
+*.pid
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Jupyter (if any later)
+# =====================
+.ipynb_checkpoints/
